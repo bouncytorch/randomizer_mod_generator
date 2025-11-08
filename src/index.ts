@@ -314,9 +314,7 @@ async function getVdata(url: string, path: string): Promise<Buffer> {
             break;
         }
             
-
         case 1: {
-
             if (!fs.existsSync(addonsPath)) fs.mkdirSync(addonsPath, { recursive: true });
             fs.copyFileSync(path.join(OUT_PATH, `${ADDON_NAME}.vpk`), path.join(addonsPath, `${ADDON_NAME}.vpk`));
             shell.showItemInFolder(path.join(addonsPath, `${ADDON_NAME}.vpk`));

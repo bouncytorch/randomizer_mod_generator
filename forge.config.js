@@ -7,18 +7,12 @@ module.exports = {
     asar: true,
     extraResource: [
       'Reduced_CSDK_12/'
-    ],
-    options: {
-      win32metadata: {
-        console: true
-      }
-    }
+    ]
   },
   rebuildConfig: {},
   makers: [
     {
-      name: "@electron-forge/maker-zip",
-      platforms: ['win32']
+      name: "@electron-forge/maker-zip"
     }
   ],
   plugins: [

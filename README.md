@@ -4,12 +4,14 @@ This is a comprehensive editor of item, ability and hero stats for Valve's third
 The goal is to build an accessible editor, for people to be able to create their own balance mods without requiring the technical know-how to edit and compile vdata directly.
 
 ## Disclaimer: Community SDK 12
-<details>
-  <summary>Click to expand</summary>
+
 
   This project ships with binaries of the [Community SDK project](https://deadlockmodding.pages.dev/modding-tools/csdk-12). This is absolutely necessary to compile the relevant resources and the sole reason why the releases are so large.
 
 **I am not and do not claim to be the author of these development tools. They are provided without warranty.** The following is the explanation that the person who assembled these tools gave to me when prompted about how they were made:
+
+<details>
+  <summary>Click to expand</summary>
 
 > With how close both versions were Build citadel 10524 and CS2 10521 (Shader VCS 70)
 > It's was mostly a drag and drop from citadel to CS2 (excluding few dll's like resourcerecomplier to allow file saving / cherry picking trial and error)

@@ -7,9 +7,9 @@ The goal is to build an accessible editor, for people to be able to create their
 <details>
   <summary>Click to expand</summary>
 
-  This project ships with binaries of the [Community SDK project](https://deadlockmodding.pages.dev/modding-tools/csdk-12). This is absolutely necessary to build a function mod and the reason why the releases are rather large.
+  This project ships with binaries of the [Community SDK project](https://deadlockmodding.pages.dev/modding-tools/csdk-12). This is absolutely necessary to compile the relevant resources and the sole reason why the releases are so large.
 
-**I am not and do not claim I am the author of these development tools. They are provided without warranty.** The following is the explanation that the person who assembled these tools gave to me when prompted about how they were made:
+**I am not and do not claim to be the author of these development tools. They are provided without warranty.** The following is the explanation that the person who assembled these tools gave to me when prompted about how they were made:
 
 > With how close both versions were Build citadel 10524 and CS2 10521 (Shader VCS 70)
 > It's was mostly a drag and drop from citadel to CS2 (excluding few dll's like resourcerecomplier to allow file saving / cherry picking trial and error)
